@@ -1,6 +1,6 @@
 **Analysis of the Customer Churn Prediction Model**
 
-1. Data Generation and Preprocessing
+**1. Data Generation and Preprocessing**
 Synthetic Data Generation:
 
 A dataset of 5000 customers was generated with attributes such as age, gender, contract type, monthly charges, tenure, etc.
@@ -13,7 +13,8 @@ Data Preprocessing:
 
 The dataset was split into training and testing sets.
 Numeric and categorical features were defined and transformed using pipelines for imputation, scaling, and one-hot encoding.
-2. Exploratory Data Analysis (EDA)
+
+**2. Exploratory Data Analysis (EDA)**
 Churn Distribution:
 
 The churn rate was found to be approximately 26.34%.
@@ -22,7 +23,8 @@ Correlation Analysis:
 
 A correlation heatmap was plotted to identify relationships between numeric features.
 Key insights included higher churn rates for month-to-month contracts and customers with higher monthly charges.
-3. Model Training and Hyperparameter Tuning
+
+**3. Model Training and Hyperparameter Tuning**
 Models Used:
 
 Logistic Regression, Decision Tree, RandomForest, and XGBoost classifiers were trained using pipelines.
